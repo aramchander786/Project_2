@@ -6,7 +6,7 @@ pipeline {
    }
 
   environment {
-    dockerimagename = "abdessamadzebbara/spring-boot-k8s"
+    dockerimagename = "aramchander786/spring-boot-k8s"
     dockerImage = ""
   }
 
