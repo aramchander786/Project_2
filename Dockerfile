@@ -5,7 +5,7 @@ FROM openjdk:11-jre-slim
 WORKDIR /app
 
 # Expose the port your Spring Boot app is running on (default is 8080)
-EXPOSE 8080
+EXPOSE 8088
 
 # Copy the JAR file into the container
 COPY target/spring-boot-k8s.jar spring-boot-k8s.jar
